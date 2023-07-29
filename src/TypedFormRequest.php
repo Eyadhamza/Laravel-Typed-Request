@@ -14,7 +14,7 @@ class TypedFormRequest extends FormRequest
         $properties = collect((new ReflectionClass($this))->getProperties(ReflectionProperty::IS_READONLY));
 
         return $properties->mapWithKeys(function (ReflectionProperty $property){
-            $rules = collect($property->getAttributes())->map(fn($attribute) => $attribute->newInstance()->getRule())->all();
+            $rules = collect($property->getAttributes())->map(fn($attribute) => $attribute->newInstance()->rule())->all();
 
             $this->initializeTypedProperty($property);
 

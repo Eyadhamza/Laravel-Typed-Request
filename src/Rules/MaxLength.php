@@ -5,7 +5,6 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-#[Attribute]
 class MaxLength extends Rule
 {
     private int $length;
