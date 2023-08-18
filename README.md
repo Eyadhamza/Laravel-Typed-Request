@@ -117,5 +117,3 @@ If you discover any security vulnerabilities, please review [our security policy
 
 The MIT License (MIT). See [License File](LICENSE.md) for more information.
 ```
-
-I've enhanced the documentation further, providing clearer instructions for creating typed request classes and custom rules. Please review the updated version and let me know if there are any specific changes you'd like to make or if you have any additional information to include.
