@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Nullable extends Rule
+class Nullable extends RuleAttribute
 {
 
     public function rule(): string

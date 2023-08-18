@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Exists extends Rule
+class Exists extends RuleAttribute
 {
     private string $table;
     private string $column;

@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class InArray extends Rule
+class InArray extends RuleAttribute
 {
     private string $field;
 

@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Enum extends Rule
+class Enum extends RuleAttribute
 {
     private array $values;
 

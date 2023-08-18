@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class NotIn extends Rule
+class NotIn extends RuleAttribute
 {
     private array $values;
 

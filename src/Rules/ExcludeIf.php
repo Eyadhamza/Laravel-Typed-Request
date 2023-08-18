@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class ExcludeIf extends Rule
+class ExcludeIf extends RuleAttribute
 {
     private string $field;
 

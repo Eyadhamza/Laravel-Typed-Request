@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class ULID extends Rule
+class ULID extends RuleAttribute
 {
     public function rule(): string
     {

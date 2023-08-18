@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class ProhibitedUnless extends Rule
+class ProhibitedUnless extends RuleAttribute
 {
     private string $field;
 

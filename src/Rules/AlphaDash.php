@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class AlphaDash extends Rule
+class AlphaDash extends RuleAttribute
 {
     public function rule(): string
     {

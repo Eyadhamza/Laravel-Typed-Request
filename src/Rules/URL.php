@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class URL extends Rule
+class URL extends RuleAttribute
 {
     public function rule(): string
     {

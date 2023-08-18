@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class CurrentPassword extends Rule
+class CurrentPassword extends RuleAttribute
 {
     public function rule(): string
     {

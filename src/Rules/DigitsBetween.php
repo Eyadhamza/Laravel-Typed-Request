@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class DigitsBetween extends Rule
+class DigitsBetween extends RuleAttribute
 {
     private int $min;
     private int $max;

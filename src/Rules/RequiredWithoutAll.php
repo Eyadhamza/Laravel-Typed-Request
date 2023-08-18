@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class RequiredWithoutAll extends Rule
+class RequiredWithoutAll extends RuleAttribute
 {
     private array $fields;
 

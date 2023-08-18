@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Unique extends Rule
+class Unique extends RuleAttribute
 {
     private string $table;
     private string $column;

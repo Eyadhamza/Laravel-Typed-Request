@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Size extends Rule
+class Size extends RuleAttribute
 {
     private int $value;
 

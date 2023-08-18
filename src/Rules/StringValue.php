@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class StringValue extends Rule
+class StringValue extends RuleAttribute
 {
     public function rule(): string
     {

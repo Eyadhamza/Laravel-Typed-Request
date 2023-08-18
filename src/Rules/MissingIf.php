@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class MissingIf extends Rule
+class MissingIf extends RuleAttribute
 {
     private string $field;
 

@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class GreaterThan extends Rule
+class GreaterThan extends RuleAttribute
 {
     private string $field;
 

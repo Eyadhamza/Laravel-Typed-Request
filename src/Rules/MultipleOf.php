@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class MultipleOf extends Rule
+class MultipleOf extends RuleAttribute
 {
     private float $value;
 

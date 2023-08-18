@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Decimal extends Rule
+class Decimal extends RuleAttribute
 {
     private int $places;
 

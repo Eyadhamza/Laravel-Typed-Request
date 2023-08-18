@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Min extends Rule
+class Min extends RuleAttribute
 {
     private int $value;
 

@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class NotRegex extends Rule
+class NotRegex extends RuleAttribute
 {
     private string $pattern;
 

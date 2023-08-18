@@ -27,3 +27,15 @@ it('fails to validate with typed form request', function () {
 
     $request->validate($request->rules());
 });
+
+it('validate with custom rules', function () {
+    request()->setMethod('PATCH');
+    $request = new ArticleRequest([
+        'title' => 'Hello World',
+        'body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    ]);
+
+    $this->expectException(ValidationException::class);
+    $request->validate($request->rules());
+
+});

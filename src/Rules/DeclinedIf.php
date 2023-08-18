@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class DeclinedIf extends Rule
+class DeclinedIf extends RuleAttribute
 {
     private string $field;
 

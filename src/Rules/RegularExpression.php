@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class RegularExpression extends Rule
+class RegularExpression extends RuleAttribute
 {
     private string $pattern;
 

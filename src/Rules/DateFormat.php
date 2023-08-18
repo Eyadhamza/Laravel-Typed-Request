@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class DateFormat extends Rule
+class DateFormat extends RuleAttribute
 {
     private string $format;
 

@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Dimensions extends Rule
+class Dimensions extends RuleAttribute
 {
     private int $width;
     private int $height;

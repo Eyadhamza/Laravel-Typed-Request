@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class MimeTypeByFileExtension extends Rule
+class MimeTypeByFileExtension extends RuleAttribute
 {
     private array $extensions;
 

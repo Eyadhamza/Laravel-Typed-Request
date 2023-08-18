@@ -6,7 +6,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class EndsWith extends Rule
+class EndsWith extends RuleAttribute
 {
     private string $value;
 

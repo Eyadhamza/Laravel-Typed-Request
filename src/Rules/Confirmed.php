@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Confirmed extends Rule
+class Confirmed extends RuleAttribute
 {
     public function rule(): string
     {

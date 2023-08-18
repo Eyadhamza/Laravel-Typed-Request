@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class IPAddress extends Rule
+class IPAddress extends RuleAttribute
 {
     public function rule(): string
     {

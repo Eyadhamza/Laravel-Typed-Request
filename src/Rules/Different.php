@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Different extends Rule
+class Different extends RuleAttribute
 {
     private string $field;
 

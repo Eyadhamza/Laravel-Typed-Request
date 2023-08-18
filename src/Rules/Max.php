@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Max extends Rule
+class Max extends RuleAttribute
 {
     private int $value;
 

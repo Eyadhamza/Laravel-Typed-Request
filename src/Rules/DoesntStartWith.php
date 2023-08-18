@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class DoesntStartWith extends Rule
+class DoesntStartWith extends RuleAttribute
 {
     private string $value;
 

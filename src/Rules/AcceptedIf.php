@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class AcceptedIf extends Rule
+class AcceptedIf extends RuleAttribute
 {
     private string $field;
 

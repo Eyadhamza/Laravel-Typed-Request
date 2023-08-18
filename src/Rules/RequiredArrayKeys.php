@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class RequiredArrayKeys extends Rule
+class RequiredArrayKeys extends RuleAttribute
 {
     private array $keys;
 

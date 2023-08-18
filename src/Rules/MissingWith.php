@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class MissingWith extends Rule
+class MissingWith extends RuleAttribute
 {
     private array $fields;
 

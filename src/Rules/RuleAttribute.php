@@ -6,7 +6,7 @@ use Attribute;
 use Illuminate\Http\Request;
 
 #[Attribute]
-abstract class Rule
+abstract class RuleAttribute
 {
     protected Request $request;
 

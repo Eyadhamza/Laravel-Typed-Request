@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Digits extends Rule
+class Digits extends RuleAttribute
 {
     private int $digits;
 

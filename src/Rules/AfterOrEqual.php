@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class AfterOrEqual extends Rule
+class AfterOrEqual extends RuleAttribute
 {
     private string $date;
 

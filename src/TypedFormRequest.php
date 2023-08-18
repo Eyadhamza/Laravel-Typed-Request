@@ -2,13 +2,13 @@
 
 namespace PiSpace\LaravelTypedRequest;
 
+use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Foundation\Http\FormRequest;
 use ReflectionClass;
 use ReflectionProperty;
 
 class TypedFormRequest extends FormRequest
 {
-
     public function rules(): array
     {
         $properties = collect((new ReflectionClass($this))->getProperties(ReflectionProperty::IS_READONLY));

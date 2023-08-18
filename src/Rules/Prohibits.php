@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Prohibits extends Rule
+class Prohibits extends RuleAttribute
 {
     private array $fields;
 

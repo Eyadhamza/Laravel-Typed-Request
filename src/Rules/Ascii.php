@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Ascii extends Rule
+class Ascii extends RuleAttribute
 {
     public function rule(): string
     {

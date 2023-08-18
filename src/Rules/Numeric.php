@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class Numeric extends Rule
+class Numeric extends RuleAttribute
 {
     public function rule()
     {

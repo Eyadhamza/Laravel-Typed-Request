@@ -4,7 +4,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class In extends Rule
+class In extends RuleAttribute
 {
     private array $values;
 

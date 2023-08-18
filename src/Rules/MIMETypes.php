@@ -5,7 +5,7 @@ namespace PiSpace\LaravelTypedRequest\Rules;
 use Attribute;
 
 #[Attribute]
-class MIMETypes extends Rule
+class MIMETypes extends RuleAttribute
 {
     private array $types;
 
