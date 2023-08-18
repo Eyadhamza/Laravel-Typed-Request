@@ -13,9 +13,9 @@ use PiSpace\LaravelTypedRequest\TypedFormRequest;
 class ArticleRequest extends TypedFormRequest
 {
     #[Required, StringValue, MaxLength(255)]
-    public readonly ?string $title;
+    public readonly string $title;
     #[Required, StringValue, MaxLength(255)]
-    public readonly ?string $body;
+    public readonly string $body;
     #[Nullable, Date, RequiredIfPatch]
     public readonly ?string $published_at;
 }

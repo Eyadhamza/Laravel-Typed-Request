@@ -34,7 +34,6 @@ it('validate with custom rules', function () {
         'title' => 'Hello World',
         'body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     ]);
-
     $this->expectException(ValidationException::class);
     $request->validate($request->rules());
 

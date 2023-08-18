@@ -4,6 +4,7 @@ namespace PiSpace\LaravelTypedRequest;
 
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\ValidationException;
 use ReflectionClass;
 use ReflectionProperty;
 
@@ -26,6 +27,9 @@ class TypedFormRequest extends FormRequest
 
     private function initializeTypedProperty(ReflectionProperty $property): void
     {
+        if (!$this->input($property->getName())){
+            return;
+        }
         $property->setValue($this, $this->input($property->getName()));
     }
 
