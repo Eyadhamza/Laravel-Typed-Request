@@ -39,3 +39,4 @@ it('validate with custom rules', function () {
     $request->validate($request->rules());
 
 });
+

@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+namespace PiSpace\LaravelTypedRequest\TypedFormRequest;
+
+class {{ class }} extends TypedFormRequest
+{
+
+}

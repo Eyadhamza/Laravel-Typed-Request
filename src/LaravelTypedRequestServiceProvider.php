@@ -9,6 +9,11 @@ class LaravelTypedRequestServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('laravel-typed-request');
+        $package
+            ->name('laravel-typed-request')
+            ->hasCommands([
+                Commands\MakeRuleAttributeCommand::class,
+                Commands\MakeTypedRequestCommand::class,
+            ]);
     }
 }
